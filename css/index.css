@@ -1,0 +1,192 @@
+body{
+  height: 100%;
+  
+}
+
+#resultadosPesquisa{
+  height: 100vh;
+}
+
+section{
+  height: auto !important;
+  background: url('../images/wallpaper.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+span{
+  font-weight: 500;
+}
+
+.custom-filtro{
+  display: flex;
+}
+
+.form-control{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.search-form {
+width: 45%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+
+.search-form input {
+height: 100%;
+background: transparent;
+display: block;
+width: 100%;
+padding-left: 1rem !important;
+height: 100%;
+font-size: 1rem;
+}
+
+.search-form select {
+  background: transparent;
+  border: 0;
+  padding: 1rem;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.search-form select option {
+  text-align: center;
+}
+
+
+
+.search-form button {
+height: 100%;
+width: 100%;
+font-size: 1rem;
+}
+
+
+.card-margin {
+  padding-top: 10rem;
+}
+
+.custom-cidade{
+  width: 20%;
+}
+
+.custom-estado{
+  width: 10%;
+}
+
+.custom-pesquisa{
+  width: 50%; 
+}
+
+
+.custom-botao{
+  width: 20%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  border-radius: 8px;
+}
+
+.horarioA{
+  padding-left: 30px;
+}
+
+
+#titulo{
+  color: white;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 200px;
+}
+
+@media screen and (max-height:573px){
+  #resultadosPesquisa{
+    height: 150vh;
+  }
+  
+
+}
+
+@media screen and (max-width:1600px){
+  #titulo{
+    margin-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (max-width:900px){
+  #titulo{
+    margin-top: 50px;
+  }
+
+  }
+
+@media screen and (max-width:1201px){
+
+  .search-form {
+    width: 90%;
+  }
+  .search-form input {
+    text-align: center;
+    padding-left: 0px !important;
+  }
+
+  .custom-cidade{
+    width: auto;
+  }
+  
+  .custom-estado{
+    width: auto;
+  }
+  
+  .custom-pesquisa{
+    width: auto;
+    height: 3rem;
+  }
+  .custom-botao{
+    width: auto;
+    height: 3rem;
+  }
+
+  .custom-filtro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .card-text{
+    font-size: 12px;
+  }
+
+  
+  .card-title{
+    font-size: 20px;
+  }
+
+
+  #imagem-card{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+  }
+  
+}
+

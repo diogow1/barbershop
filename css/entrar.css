@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+
+.custom-sectionLogin{
+  padding-top: 40px ;
+  padding-bottom: 250px;
+}
+
+#titulo{
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 200px;
+}
+
+@media screen and (max-width:1500px){
+  .custom-sectionLogin{
+    padding-top: 40px;
+    padding-bottom: 200px;
+  }
+
+  #titulo{
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,187 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css'); /*Importa um SVG que será usado como ícone de login*/
+
+body{
+  height: 100%;
+  
+}
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+
+/*Altera o tamanho do header e a cor*/
+.navbar{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: rgb(36, 36, 36);
+}
+
+/*Essa é uma classe customizada para alterar alguns estilos que já vem pré-definidos do bootstrap.*/
+.custom-tab {
+  --bs-nav-link-color:white; /*Altera a cor de quando você clica (a padrão de links é azul)*/
+  --bs-nav-link-hover-color: white; /*Altera a cor quando você passa o mouse em cima (a padrão de links é azul)*/
+  background-color: transparent; /*Defino o background como transparente para que ele use a cor do header definida anteriormente*/
+  color: #ffffff; /*Cor do texto*/
+  border-color: transparent; /*Esse tipo de navbar do bootstrap (sim, existe outros com estilos diferentes) faz com que por padrão a cor seja branca. Com essa tag eu defino como transparente com o mesmo intuito do background */
+  border-radius: 10px; /*Border radius basicamente adiciona curvas nas extremidades das bordas*/
+  padding: 15px 15px 15px 15px !important; /*Aqui eu defino um padding para cada item e uso o !important para que ele priorize esse estilo e não algum outro já definido pelo bootstrap*/
+}
+
+/*A tag *hover* em css é ativada quando o mouse do usuário entre em contato com o elemento*/
+.custom-tab:hover {
+  border-radius: 10px;
+  color: white;
+  font-style: none;
+  background-color: #383838;  /*Uso uma cor mais clara para dar destaque na opção que o usuário está com o mouse*/
+  border: transparent;
+}
+
+/*O active é uma classe do bootstrap. Quando o usuário está na página home adicionamos essa classe no item 
+da navbar para que esses estilos sejam ativados e o usuário identifique em que página ele está*/
+.custom-tab.active {
+  background-color: #383838 !important; /*A tag !important sempre vai ser usada visando substituir um estilo da tag ou da tag mãe que o bootstrap já deixa definido*/
+  color: #ffffff !important; 
+  border: transparent;
+  border-radius: 10px;
+}
+
+/*Essa classe é uma custom para o item de criar conta. 
+Adiciono um border radios e uma cor pra dar destaque.*/
+.custom-register{
+  background-color: #6801ac;
+  border-radius: 10px;
+}
+
+/*Aqui eu estou apenas removendo um estilo pré-definido do bootstrap 
+(irei usar essa classe novamente quando a tela ser reduzida de tamanho)*/
+.custom-ul{
+  --bs-nav-tabs-border-width:none;
+
+}
+
+/*Estou modificando o tamanho do texto dos links*/
+a{
+  font-size:14px;
+  font-weight:700
+}
+
+.superNav {
+  font-size:13px;
+}
+
+/*As próximas 3 tags tem o intuito de modificar os estilos do footer. Não é muito complexo de entender.*/ 
+
+footer {
+  padding-top: 20px;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+
+/*Aqui é só para entender visualmente como a página irá ficar. 
+Sem essa tag o footer fica muito colado no header, já que não há nada ainda no section.*/
+
+.img-thumbnail{
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: -3px;
+  left: 15%;
+  height: 6.5rem;
+  width: 6.5rem;
+
+}
+
+
+
+.custom-logo{
+  padding: 0px !important;
+}
+
+@media screen and (max-width:1600px){
+
+  .img-thumbnail{
+    top: -3px !important;
+    left: 10%;
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+}
+
+
+@media screen and (max-width:575px){
+  .centerOnMobile {
+    text-align:center
+  }
+
+  .img-thumbnail{
+    left: 2% !important;
+    top: -5px;
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+}
+
+/*Bom, aqui estou definido estilos para telas com menores em largura que 993 pixels 
+(telas de celulares por exemplo)*/
+@media screen and (max-width:993px){
+
+  /*Nessa classe eu deixo claro que a largura do item vai se ajustar com o conteúdo nele.*/
+  .nav-item{
+    width: max-content;
+  }
+  /*Mesma ideia o active usado anteriormente. Aqui são só algumas alterações para ficar
+  melhor de ver em telas de celulares*/
+  .custom-tab.active{
+    width: 115%;
+    text-align: center;
+  }
+  
+  /*gg-menu é uma classe do SVG que importei para usar como ícone de menu*/
+  .gg-menu{
+    color: white;
+  }
+
+  /*Aqui eu altero alguns estilos que já vem definidos pelo bootstrap para o botão de menu*/
+  .navbar-toggler{
+    padding: 14px;
+    border: white;
+
+  }
+  /*O efeito focus é ativado quando algum elemento do html está em foco (no caso aqui é do botão de menu).*/
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  /*Como nessa área todas as tags vão ser usadas quando a largura for menor 993 pixels,
+  estou alterando espaçamento para ficar mais bonito visualmente nessas telas (ou pelo menos tentando deixar bonito)*/
+  .custom-ul{
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+
+  /*Nessa classe custom estou definindo que os elementos fiquem em linha.*/
+  .custom-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-thumbnail{
+    left: 10%;
+    top: -5px;
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+}

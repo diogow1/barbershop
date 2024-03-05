@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+
+.custom-sectionRegister{
+
+  padding-bottom: 10% !important;
+}
+
+
+.form-label{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#titulo{
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form-check{
+  margin-right: 10px;
+  display: inline-flex;
+}
+
+#check{
+  display: grid;
+}
+
+.form-check-label{
+  margin-left: 10px;
+}
+
+#cidadeidSelect, #cidadeidLabel, #cepidInput, #cepidLabel, #enderecoidInput, #enderecoidLabel, #complementoidInput, #complementoidLabel, #estadoidSelect, #estadoidLabel{
+  display: none;
+}
+
+@media screen and (max-width:993px){
+  .card{
+    width: 100%;
+  }
+  .custom-sectionRegister{
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
+  }
+
+  #check{
+    margin-left: 0px;
+  }
+}
