@@ -3,7 +3,7 @@
 # Projeto Barber Shop
 
 ## Contexto
-O projeto Barber Shop foi desenvolvido em PHP e JavaScript, com banco de dados PostgreSQL, durante o 2º semestre do meu periodo na faculdade. Inicialmente, tive muitas ideias para implementar, mas, ao longo do desenvolvimento, algumas foram abandonadas devido à pressão do prazo de entrega. Para facilitar a explicação do código durante um seminário para a turma, adicionei diversos comentários, o que me ajudou a manter o foco.
+O projeto Barber Shop foi desenvolvido em PHP e JavaScript, com banco de dados PostgreSQL, durante o 2º semestre do meu periodo na faculdade. Inicialmente, tive muitas ideias para implementar, mas, ao longo do desenvolvimento, algumas foram abandonadas devido ao prazo curto de entrega. Para facilitar a explicação do código durante um seminário para a turma, adicionei diversos comentários, o que me ajudou a manter o foco.
 
 
 ### ⚠ ESSE CÓDIGO NÃO É SEGURO! ⚠
