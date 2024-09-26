@@ -25,11 +25,11 @@ O Barber Shop é um sistema de pesquisa de barbearias. Os usuários podem procur
 
 ## 🛠️ Construído com
 
-* Bootstrap
-* PHP
-* JavaScript
-* PostgreSQL
-* XAMPP
+* [Bootstrap](https://getbootstrap.com/)
+* [PHP](https://www.php.net/)
+* [JavaScript](https://www.javascript.com/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [XAMPP](https://www.apachefriends.org/)
 
 
 
