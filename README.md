@@ -1,9 +1,9 @@
 
 
-# Projeto Barber Shop
+# Projeto Conexão Barbearia
 
 ## Contexto
-O projeto Barber Shop foi desenvolvido em PHP e JavaScript, com banco de dados PostgreSQL, durante o 2º semestre do meu periodo na faculdade. Inicialmente, tive muitas ideias para implementar, mas, ao longo do desenvolvimento, algumas foram abandonadas devido ao prazo curto de entrega. Para facilitar a explicação do código em um seminário que apresentei o projeto, adicionei diversos comentários, o que me ajudou a não me perder.
+O projeto Conexão Barbearia foi desenvolvido em PHP e JavaScript, com banco de dados PostgreSQL, durante o 2º semestre do meu periodo na faculdade. Inicialmente, tive muitas ideias para implementar, mas, ao longo do desenvolvimento, algumas foram abandonadas devido ao prazo curto de entrega. Para facilitar a explicação do código em um seminário que apresentei o projeto, adicionei diversos comentários, o que me ajudou a não me perder.
 
 
 ### ⚠ ESSE CÓDIGO NÃO É SEGURO! ⚠
@@ -15,7 +15,7 @@ Não tenho a intenção de revisitar ou atualizar este código, então esteja ci
 
 ## 💈 Descrição do Projeto 
 
-O Barber Shop é um sistema de pesquisa de barbearias. Os usuários podem procurar barbearias por nome ou localização, acessar suas informações e entrar em contato com elas. Além disso, barbeiros têm a opção de cadastrar suas barbearias no site.
+O Conexão Barbearia é um sistema de pesquisa de barbearias. Os usuários podem procurar barbearias por nome ou localização, acessar suas informações e entrar em contato com elas. Além disso, barbeiros têm a opção de cadastrar suas barbearias no site.
 
 
 ## ⚙️ Funcionalidades 
